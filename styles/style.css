@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -41,8 +44,6 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  padding: 133px 30px;
-  margin: auto;
 }
 
 .result__video-container {
@@ -204,7 +205,7 @@ ol {
   flex-direction: column;
   gap: 34px;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .content__list::-webkit-scrollbar {
